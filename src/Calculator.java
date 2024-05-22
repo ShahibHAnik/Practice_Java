@@ -9,11 +9,11 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         System.out.println("Please enter a number");
-        int numberA =  input.nextInt();
+        double numberA =  input.nextDouble();
         System.out.println("Please enter a number");
-        int numberB = input.nextInt();
+        double numberB = input.nextDouble();
         //System.out.println("Sum numberA & NumberB = "+ finalResult);
-        int Total = numberA+numberB;
+        double Total = numberA+numberB;
         System.out.println("Sum=" +Total);
 
     }
